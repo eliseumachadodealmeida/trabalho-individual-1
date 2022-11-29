@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+    background-color: #6bb38e
+ }
+ .texto-inicial{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px;
+}
+
+
+.imagemdeperfil{
+    height: 300px;
+    border-radius: 40px;
+    border: 3px solid #a4c972;
+    margin-left: 800px;
+ }
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px;
+}
+.info p em{
+    margin: 15px;
+    color: black;
+    
+}
+
+ img,
+ h2,
+ p {
+    display: inline-block;
+ }
+
+ 
+ .sobre-mim h4 {
+    border: 2px solid #a4c972;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .hobbies h4 {
+   
+    border: 2px solid #a4c972;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .contato h4 {
+    border: 2px solid #a4c972;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ /*Editando o estilo do formulário*/
+ form {
+    font-family: Arial;
+ }
+ 
+ form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+
+ form input,
+ form textarea {
+    outline: unset;
+    padding: 28px;
+    width: 300px;
+    border: 1px solid #ffb43e;
+    border-radius: 20px;
+ }
+ 
+ .button{
+    outline: unset;
+    padding: 28px;
+    width: 100px;
+    border: 1px solid #ffb43e;
+    border-radius: 20px;
+ }
+
+ 
